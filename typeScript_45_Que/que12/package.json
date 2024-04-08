@@ -1,0 +1,17 @@
+{
+  "name": "que12",
+  "version": "1.0.0",
+  "description": "Solved Que # 12 of 45 Questions",
+  "main": "que12.js",
+  "dependencies": {
+    "undici-types": "^5.26.5"
+  },
+  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Muhammad Salman",
+  "license": "MIT"
+}
