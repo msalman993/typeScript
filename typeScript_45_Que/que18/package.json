@@ -1,0 +1,15 @@
+{
+  "name": "que18",
+  "version": "1.0.0",
+  "description": "Assignment Que No 18 Out of 45 Questions",
+  "main": "que18.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Salman",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.5"
+  }
+}
