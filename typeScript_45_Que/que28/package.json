@@ -1,0 +1,15 @@
+{
+  "name": "que28",
+  "version": "1.0.0",
+  "description": "que28/typeScript_45_Que.",
+  "main": "que28.js",
+  "types": "modules",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Salman",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.7"
+  }
+}
