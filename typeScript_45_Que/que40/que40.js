@@ -36,6 +36,7 @@ function make_album2(artistName, title, tracks) {
     let albumObject = {
         artistName,
         title,
+        tracks
     };
     if (tracks > 0) {
         albumObject.tracks = tracks;
@@ -44,3 +45,6 @@ function make_album2(artistName, title, tracks) {
 }
 console.log(make_album2("Rhat Fatih Ali Khna", "tomhe dil lagi bhool jane paregi", 10));
 export {};
+// The ? is used to indicate that the tracks property is optional. This means that the albumObject may or may not have a tracks property.
+// The ? is a shorthand for "optional" and is used in TypeScript to denote optional properties, parameters, or variables. In this case, it indicates that the tracks property is not required, and the object can still be valid even if it's missing.
+// Without the ?, TypeScript would require the tracks property to be present in the object, and would throw an error if it's missing. By using ?, you're telling TypeScript that it's okay if the property is missing, and it will not throw an error.
